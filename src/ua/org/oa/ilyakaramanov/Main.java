@@ -18,7 +18,7 @@ public class Main {
         for (Employee company : list) {
             company.calculateSalary();
             company.displayInfo();
-            count+=company.calculateSalary();
+            count += company.calculateSalary();
         }
         System.out.println("Общая выплата в этом месяце составит: " + count);
     }
