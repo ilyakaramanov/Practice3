@@ -2,6 +2,10 @@ package ua.org.oa.ilyakaramanov;
 
 import java.util.ArrayList;
 
+/*
+Создаем массив работников, выводим ЗП каждого и общую сумму по всей фирме
+ */
+
 public class Main {
     public static void main(String[] args) {
 

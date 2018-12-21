@@ -1,5 +1,10 @@
 package ua.org.oa.ilyakaramanov;
 
+/*
+Класс Boss наследуется от Employee.
+Boss получает еженедельный оклад.
+ */
+
 public class Boss extends Employee {
 
     int weekSalary;
@@ -12,6 +17,9 @@ public class Boss extends Employee {
         this.weekSalary = weekSalary;
     }
 
+    /*
+Метод вычисляет ЗП Boss
+     */
     @Override
     public double calculateSalary() {
         salary = weekSalary * weeks;

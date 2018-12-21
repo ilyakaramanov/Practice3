@@ -1,5 +1,10 @@
 package ua.org.oa.ilyakaramanov;
 
+/*
+Класс HourlyWorker наследуется от Employee.
+HourlyWorker получает почасовую ЗП.
+ */
+
 public class HourlyWorker extends Employee {
 
     final int HOURS = 160;
@@ -13,6 +18,10 @@ public class HourlyWorker extends Employee {
         this.hoursSalary = hoursSalary;
         this.totalHours = totalHours;
     }
+
+    /*
+    Метод вычисляет ЗП в зависимости от отработанных часов
+     */
 
     @Override
     public double calculateSalary() {

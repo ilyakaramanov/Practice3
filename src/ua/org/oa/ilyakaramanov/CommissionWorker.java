@@ -1,5 +1,10 @@
 package ua.org.oa.ilyakaramanov;
 
+/*
+Класс CommissionWorker наследуется от Employee.
+CommissionWorker получает базовую ЗП и процент от продаж.
+ */
+
 public class CommissionWorker extends Employee {
 
     int regularSalary;
@@ -12,6 +17,10 @@ public class CommissionWorker extends Employee {
         this.sales = sales;
         this.regularSalary = regularSalary;
     }
+
+    /*
+    Метод вычисляет ЗП CommissionWorker
+     */
 
     @Override
     public double calculateSalary() {

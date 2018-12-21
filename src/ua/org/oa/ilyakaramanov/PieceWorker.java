@@ -1,5 +1,10 @@
 package ua.org.oa.ilyakaramanov;
 
+/*
+Класс PieceWorker наследуется от Employee.
+PieceWorker получает ЗП по количеству сделанных изделий.
+ */
+
 public class PieceWorker extends Employee {
 
     int amount;
@@ -11,6 +16,10 @@ public class PieceWorker extends Employee {
         this.amount = amount;
         this.amountPrice = amountPrice;
     }
+
+    /*
+    Метод вычисляет ЗП PieceWorker
+     */
 
     @Override
     public double calculateSalary() {
